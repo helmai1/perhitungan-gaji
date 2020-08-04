@@ -1,4 +1,6 @@
-App perhitungan-gaji
+## App perhitungan-gaji
+
 
 repository dibuat oleh :
-Helmi Siswo Effendi
+1. Helmi Siswo Effendi
+2. Berliana Farah Diba
