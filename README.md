@@ -1,6 +1,5 @@
 App perhitungan-gaji
 
 repository dibuat oleh :
-Helmi Siswo Effendi
-
-Test ngajarin git add, git commit dan git push serta pull request
+1. Helmi Siswo Effendi
+2. Berliana Farah Diba
