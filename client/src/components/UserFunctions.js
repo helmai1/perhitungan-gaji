@@ -21,3 +21,16 @@ export const login = user => {
             console.log(err)
         })
 }
+
+export const register = newUser => {
+    return axios
+        .post('api/register', newUser, {
+            headers: { 'Content-Type': 'application/json' }
+        })
+        .then(response => {
+            console.log(response)
+        })
+        .catch(err => {
+            console.log(err)
+        })
+}
