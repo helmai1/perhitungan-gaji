@@ -12,10 +12,16 @@
 */
 
 Route::view('/', 'welcome');
+Route::get('home/create', 'HomeController@create');
 
 Auth::routes();
 // Route::get('/home', 'HomeController@index');
 Route::view('/home', 'home')->middleware('auth');
+Route::get('/gaji', 'GajiController@index');
+Route::get('/gaji/{id}', 'GajiController@show');
+Route::post('/gaji/store', 'GajiController@store');
+Route::put('/gaji/{id}', 'GajiController@update');
+Route::delete('/gaji/{id}', 'GajiController@delete');
 
 
 
